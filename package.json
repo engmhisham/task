@@ -1,7 +1,7 @@
 {
   "name": "task",
   "version": "0.1.0",
-  "homepage": "https://gitname.github.io/react-gh-pages",
+  "homepage": "https://gitname.github.io/task",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.2",

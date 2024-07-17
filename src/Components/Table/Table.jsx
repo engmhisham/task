@@ -25,7 +25,7 @@ ChartJS.register(
   Filler
 );
 
-const App = () => {
+export default function Table () {
   const [customers, setCustomers] = useState([]);
   const [transactions, setTransactions] = useState([]);
   const [selectedCustomerId, setSelectedCustomerId] = useState(null);
@@ -38,8 +38,8 @@ const App = () => {
   {
     try {
       const [customersResponse, transactionsResponse] = await Promise.all([
-        axios.get('http://localhost:5000/customers'),
-        axios.get('http://localhost:5000/transactions')
+        axios.get('https://my-json-server.typicode.com/engmhisham/task/customers'),
+        axios.get('https://my-json-server.typicode.com/engmhisham/task/transactions')
       ]);
       setCustomers(customersResponse.data);
       setTransactions(transactionsResponse.data);
@@ -248,4 +248,3 @@ const App = () => {
   );
 };
 
-export default App;
