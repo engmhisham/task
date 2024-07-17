@@ -1,0 +1,11 @@
+[33mcommit 1af6257fd5f2d5aaadf03ed3d7cfa9ef6b469b27[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: engmhisham <eng.mhisham96@gmail.com>
+Date:   Wed Jul 17 05:14:21 2024 +0300
+
+    Initial commit
+
+[33mcommit 908e463a2fe872f00a524b56037f9107f1844b2c[m
+Author: engmhisham <eng.mhisham96@gmail.com>
+Date:   Sat Jul 13 21:49:42 2024 +0300
+
+    Initialize project using Create React App
